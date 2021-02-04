@@ -11,6 +11,7 @@
     --primary-text-color: #212121;
     --title-text-color: #757575;
     --accent-color: #2196F3;
+    --primary-bg-color: #ffffff; 
 
 }
 
@@ -19,6 +20,19 @@ body {
    color: #212121;
    text-decoration: none;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
 .logo {
     color: black
@@ -48,7 +62,7 @@ body {
  /* hero*/
 
  .hero-title {
-     color: #ffffff;
+     color: black;
  }
 
  /* section */
@@ -60,4 +74,10 @@ body {
 /* features */
 .feature-list .title {
     color: var(--primary-text-color);
+}
+
+/* button*/
+button {
+    color: var(--accent-color)
+    background-color: ;
 }
