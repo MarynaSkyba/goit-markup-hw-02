@@ -7,37 +7,6 @@
  color: rgba(255, 255, 255, 0.6); 2 ссылки в футере
 */
 
-:root {
-    --primary-text-color: #212121;
-    --title-text-color: #757575;
-    --accent-color: #2196F3;
-    --primary-bg-color: #ffffff; 
-    --bgc-main: #2F303A;
-    --bgc-accent: #F5F4FA; 
-    
-    
-
-}
-
-body {
-    background-color: #ffffff;
-    color: #212121;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-
-}
-
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-/* font-family: 'Oleo Script', cursive;
-font-family: 'Raleway', sans-serif; */
-
 /* Header */
 
 .logo {
@@ -69,7 +38,7 @@ font-family: 'Raleway', sans-serif; */
 
 /* Site nav */
 
-.site-nav .nav-link {
+.site-nav .link {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -78,8 +47,12 @@ font-family: 'Raleway', sans-serif; */
 
 }
 
-.site-nav .nav-link:hover,
-.site-nav .nav-link:focus {
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
     color: var(--accent-color);
 }
 
