@@ -27,24 +27,18 @@ body {
 
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 /* font-family: 'Oleo Script', cursive;
 font-family: 'Raleway', sans-serif; */
 
 /* Header */
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -53,7 +47,6 @@ font-family: 'Raleway', sans-serif; */
     font-size: 26px;
     line-height: 1.15;
     color: var(--primary-text-color);
-    text-decoration: none;
 }
 
 .logo-color{
@@ -82,7 +75,7 @@ font-family: 'Raleway', sans-serif; */
     font-size: 14px;
     line-height: 1.15;    
     color: var(--primary-text-color);
-    text-decoration: none;
+
 }
 
 .site-nav .nav-link:hover,
@@ -92,7 +85,6 @@ font-family: 'Raleway', sans-serif; */
 
 .contacts .contacts-link {
     color: var(--title-text-color);
-    text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
@@ -109,7 +101,7 @@ font-family: 'Raleway', sans-serif; */
     text-transform: uppercase;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.4;
+    line-height: 1.36;
     text-align: center;
     background-color: var(--bgc-main);
     color: var(--primary-bg-color);
@@ -126,7 +118,6 @@ font-family: 'Raleway', sans-serif; */
     align-items: center;
     text-align: center;
     display: flex;
-    text-decoration: none;
 }
 
 /* features */
@@ -155,7 +146,11 @@ font-family: 'Raleway', sans-serif; */
     text-align: center;
 }
 
-/* conand */
+/* comand */
+
+.comand {
+    background-color: var(--bgc-accent);
+}
 
 .comand-title {
     color: var(--primary-text-color);
@@ -180,10 +175,8 @@ font-family: 'Raleway', sans-serif; */
 }
 
 /* footer */
-.address {
+footer {
     background-color: var(--bgc-main);
-    list-style: none;
-    text-decoration: none;
 }
 
 .logo-footer {
@@ -192,7 +185,6 @@ font-family: 'Raleway', sans-serif; */
     font-size: 26px;
     line-height: 1.15;
     color: var(--primary-bg-color);
-    text-decoration: none;
 }
 
 .logo-color{
@@ -211,11 +203,10 @@ font-family: 'Raleway', sans-serif; */
     line-height: 1.71;
 }
 
-.address-list .address-link {
-    color: red;
+.address .address-link {
+    color: rgba(255 ,255 ,255 ,0.6 );
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
-    text-decoration: none;
 }
