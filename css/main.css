@@ -12,14 +12,26 @@
     --title-text-color: #757575;
     --accent-color: #2196F3;
     --primary-bg-color: #ffffff; 
+    --bgc-main: #2F303A;
+    --bgc-accent: #F5F4FA; 
+    
+    
 
 }
 
 body {
-   background-color: #ffffff;
-   color: #212121;
-   text-decoration: none;
+    background-color: #ffffff;
+    color: #212121;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+
 }
+
+/* font-family: 'Oleo Script', cursive;
+font-family: 'Raleway', sans-serif; */
+
+/* Header */
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -32,52 +44,178 @@ body {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }
+}
 
 .logo {
-    color: black
-}
-.logo-color{
-    color: var(--accent-color) ;
-}
-.logo:hover,
-.logo:focus {
- color: var(--primary-text-color); 
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.15;
+    color: var(--primary-text-color);
+    text-decoration: none;
 }
 
+.logo-color{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.15;
+    color: var(--accent-color);
+}
+
+.logo:hover,
+.logo:focus {
+    color: var(--primary-text-color); 
+}
 
 .list {
     list-style: none;
 }
-    /* Site nav */
 
-.site-nav .link {
+/* Site nav */
+
+.site-nav .nav-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;    
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+.site-nav .nav-link:hover,
+.site-nav .nav-link:focus {
     color: var(--accent-color);
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
-    color: var(--primary-text-color);
-}
- /* hero*/
-
- .hero-title {
-     color: black;
- }
-
- /* section */
-
-.section-title {
- color: var(--primary-text-color) ;
+.contacts .contacts-link {
+    color: var(--title-text-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
 }
 
-/* features */
-.feature-list .title {
-    color: var(--primary-text-color);
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--accent-color);
+}
+
+/* hero*/
+
+.hero-title {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    background-color: var(--bgc-main);
+    color: var(--primary-bg-color);
+    
 }
 
 /* button*/
-button {
-    color: var(--accent-color)
-    background-color: ;
+.button {
+    color: var(--primary-bg-color);
+    background-color: var(--accent-color);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    text-decoration: none;
+}
+
+/* features */
+
+.feature .title {
+    color: var(--primary-text-color);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.15;
+    text-transform: uppercase;
+}
+
+.feature .title-text{
+    color: var(--title-text-color);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+/* section */
+.work-title {
+    color: var(--primary-text-color);
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+
+/* conand */
+
+.comand-title {
+    color: var(--primary-text-color);
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.comand-name {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+.comand-profesion {
+    color: var(--title-text-color);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+/* footer */
+.address {
+    background-color: var(--bgc-main);
+    list-style: none;
+    text-decoration: none;
+}
+
+.logo-footer {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.15;
+    color: var(--primary-bg-color);
+    text-decoration: none;
+}
+
+.logo-color{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.15;
+    color: var(--accent-color);
+}
+
+.address-title {
+    color: var(--primary-bg-color);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.address-list .address-link {
+    color: red;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
 }
