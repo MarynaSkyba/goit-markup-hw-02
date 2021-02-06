@@ -12,6 +12,7 @@ body {
     color: #212121;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
 }
 
 ul {
@@ -20,6 +21,12 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .visually-hidden {
@@ -33,4 +40,103 @@ a {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+/* logo */
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.15;
+    color: var(--primary-text-color);
+    letter-spacing: 0.03em;
+}
+
+.logo-color{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.15;
+    color: var(--accent-color);
+}
+
+.logo:hover,
+.logo:focus {
+    color: var(--primary-text-color); 
+}
+
+.list {
+    list-style: none;
+}
+
+/* Site nav */
+
+.site-nav .link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;    
+    color: var(--primary-text-color);
+    letter-spacing: 0.02em;
+
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.contacts .contacts-link {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--accent-color);
+}
+
+/* footer */
+footer {
+    background-color: var(--bgc-main);
+}
+
+.logo-footer {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.15;
+    color: var(--primary-bg-color);
+}
+
+.logo-color{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.15;
+    color: var(--accent-color);
+}
+
+.address-title {
+    color: var(--primary-bg-color);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.address .address-link {
+    color: rgba(255 ,255 ,255 ,0.6 );
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
 }

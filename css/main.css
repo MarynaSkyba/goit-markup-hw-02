@@ -1,73 +1,3 @@
-
-/*  цвет вторичного текста color: #757575;
- цвет основного текста color: #212121;
-
-   синий ссылки color: #2196F3;
- h1 color: #FFFFFF;
- color: rgba(255, 255, 255, 0.6); 2 ссылки в футере
-*/
-
-/* Header */
-
-.logo {
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 1.15;
-    color: var(--primary-text-color);
-}
-
-.logo-color{
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.15;
-    color: var(--accent-color);
-}
-
-.logo:hover,
-.logo:focus {
-    color: var(--primary-text-color); 
-}
-
-.list {
-    list-style: none;
-}
-
-/* Site nav */
-
-.site-nav .link {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.15;    
-    color: var(--primary-text-color);
-
-}
-
-.site-nav .link:hover,
-.site-nav .link:focus {
-    color: var(--accent-color);
-}
-
-.site-nav .link.current {
-    color: var(--accent-color);
-}
-
-.contacts .contacts-link {
-    color: var(--title-text-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.15;
-}
-
-.contacts-link:hover,
-.contacts-link:focus {
-    color: var(--accent-color);
-}
-
 /* hero*/
 
 .hero-title {
@@ -78,7 +8,7 @@
     text-align: center;
     background-color: var(--bgc-main);
     color: var(--primary-bg-color);
-    
+    letter-spacing: 0.06em;
 }
 
 /* button*/
@@ -91,6 +21,7 @@
     align-items: center;
     text-align: center;
     display: flex;
+    letter-spacing: 0.06em;
 }
 
 /* features */
@@ -115,7 +46,7 @@
     color: var(--primary-text-color);
     font-weight: bold;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     text-align: center;
 }
 
@@ -145,41 +76,4 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 1.18;
-}
-
-/* footer */
-footer {
-    background-color: var(--bgc-main);
-}
-
-.logo-footer {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 1.15;
-    color: var(--primary-bg-color);
-}
-
-.logo-color{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.15;
-    color: var(--accent-color);
-}
-
-.address-title {
-    color: var(--primary-bg-color);
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.71;
-}
-
-.address .address-link {
-    color: rgba(255 ,255 ,255 ,0.6 );
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.71;
 }
